@@ -1,1 +1,1 @@
-my new file contents
+curl -i -X PUT -H 'Authorization: token a44d671282f01d597f8124e9342ce71346ca632f' -d '{"path": "test12.txt", "message": "Initial Commit", "committer": {"name": "Alper", "email": "yildalper@gmail.com"}, "content": "bXkgbmV3IGZpbGUgY29udGVudHM=", "branch": "master"}' https://api.github.com/repos/yildal/Mytest/contents/test12.txt
